@@ -1,2 +1,3 @@
 # curso-Frontend
-exercicios Frontdnd
+exercicios Frontend
+
