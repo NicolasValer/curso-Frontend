@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Interativos</title>
+</head>
+<body>
+    <button id="botao">Clique em mim!</button>
+    <p id="mensagem">clique no botão acima</p>
+
+    <script>
+        let botao = document.getElementById('botao');
+        let mensagem = document.getElementById('mensagem');
+        let fundoverde = document.getElementById('fundoverde');
+
+        botao.addEventListener('click', function() {
+            mensagem.innerHTML = 'Você clicou no botão!';
+            document.body.style.backgroundColor = 'green'
+        });
+    </script>
+</body>
+</html>
